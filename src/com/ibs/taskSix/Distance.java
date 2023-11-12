@@ -16,7 +16,7 @@ public class Distance {
      * @return - ярды
      */
     public static String feetToYards(double feet) {
-        return String.format("%.3f",feet / FEET_IN_YARD);
+        return String.format("%.3f", feet / FEET_IN_YARD);
     }
 
     /**
@@ -26,7 +26,7 @@ public class Distance {
      * @return - футы
      */
     public static String yardsToFeet(double yards) {
-        return String.format("%.3f",yards * FEET_IN_YARD);
+        return String.format("%.3f", yards * FEET_IN_YARD);
     }
 
     /**
@@ -36,7 +36,7 @@ public class Distance {
      * @return - мили
      */
     public static String feetToMiles(double feet) {
-        return String.format("%.3f",feet / FEET_IN_MILE);
+        return String.format("%.3f", feet / FEET_IN_MILE);
     }
 
     /**
@@ -46,7 +46,7 @@ public class Distance {
      * @return - футы
      */
     public static String milesToFeet(double miles) {
-        return String.format("%.3f",miles * FEET_IN_MILE);
+        return String.format("%.3f", miles * FEET_IN_MILE);
     }
 
     /**
@@ -56,7 +56,7 @@ public class Distance {
      * @return - мили
      */
     public static String yardsToMiles(double yards) {
-        return String.format("%.3f",yards / YARDS_IN_MILE);
+        return String.format("%.3f", yards / YARDS_IN_MILE);
     }
 
     /**
@@ -66,7 +66,7 @@ public class Distance {
      * @return - ярды
      */
     public static String milesToYard(double miles) {
-        return String.format("%.3f",miles * YARDS_IN_MILE);
+        return String.format("%.3f", miles * YARDS_IN_MILE);
     }
 
     /**
@@ -76,7 +76,7 @@ public class Distance {
      * @return- футы
      */
     public static String metersToFeet(double meters) {
-        return String.format("%.3f",meters * FEET_IN_METERS);
+        return String.format("%.3f", meters * FEET_IN_METERS);
     }
 
     /**
@@ -86,7 +86,7 @@ public class Distance {
      * @return- метры
      */
     public static String feetToMeters(double feet) {
-        return String.format("%.3f",feet / FEET_IN_METERS);
+        return String.format("%.3f", feet / FEET_IN_METERS);
     }
 
     /**
@@ -96,7 +96,7 @@ public class Distance {
      * @return - ярды
      */
     public static String metersToYards(double meters) {
-        return String.format("%.3f",meters * YARDS_IN_METERS);
+        return String.format("%.3f", meters * YARDS_IN_METERS);
     }
 
     /**
@@ -106,7 +106,7 @@ public class Distance {
      * @return- мили
      */
     public static String yardsToMeters(double yards) {
-        return String.format("%.3f",yards / YARDS_IN_METERS);
+        return String.format("%.3f", yards / YARDS_IN_METERS);
     }
 
     /**
@@ -116,7 +116,7 @@ public class Distance {
      * @return - мили
      */
     public static String metersToMiles(double meters) {
-        return String.format("%.3f",meters / METERS_IN_MILE);
+        return String.format("%.3f", meters / METERS_IN_MILE);
     }
 
     /**
@@ -126,11 +126,12 @@ public class Distance {
      * @return - ярды
      */
     public static String milesToMeters(double miles) {
-        return String.format("%.3f",miles * METERS_IN_MILE);
+        return String.format("%.3f", miles * METERS_IN_MILE);
     }
 
     /**
      * Вывод результата перевода метры
+     *
      * @param meters -кол-во метров
      */
     public static void convertMeters(double meters) {
@@ -142,6 +143,7 @@ public class Distance {
 
     /**
      * Вывод результата перевода мили
+     *
      * @param miles - кол-во миль
      */
     public static void convertMiles(double miles) {
@@ -153,6 +155,7 @@ public class Distance {
 
     /**
      * Вывод результата перевода ярды
+     *
      * @param yards - кол-во ярд
      */
     public static void convertYards(double yards) {
@@ -164,6 +167,7 @@ public class Distance {
 
     /**
      * Вывод результата перевода футы
+     *
      * @param feet - кол-во футов
      */
     public static void convertFeet(double feet) {

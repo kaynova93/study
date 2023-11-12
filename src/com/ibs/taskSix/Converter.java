@@ -9,7 +9,6 @@ public class Converter {
         System.out.println("Выберите что переводить: 1 - "+ measurement[0][0]+", 2 - "+ measurement[0][1]);
         int x = new Scanner(System.in).nextInt();
         System.out.println("Выберите единицу измерения: 1 - "+measurement[x][0]+", 2 - "+measurement[x][1]+", 3 - "+measurement[x][2]+", 4 - "+measurement[x][3]);
-            //System.out.println(" ");
         int y = new Scanner(System.in).nextInt();
         System.out.println("Введите число:");
         double numb =  new Scanner(System.in).nextDouble();
