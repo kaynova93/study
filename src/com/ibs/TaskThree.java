@@ -1,6 +1,6 @@
 package com.ibs;
 
-public class TaskArrays {
+public class TaskThree {
 
     /**
      * Инструкция
@@ -18,10 +18,10 @@ public class TaskArrays {
      * @param index1 - индекс элемента для изменения
      * @param index2 - - индекс элемента для изменения
      */
-    public void changeElements(int index1, int index2) {
-        int a = arr[index1];
-        arr[index1] = arr[index2];
-        arr[index2] = a;
+    public void changeElements() {
+        int a = arr[0];
+        arr[0] = arr[4];
+        arr[4] = a;
         System.out.println("3.2 Поменяйте местами первый и последний элемент в массиве");
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]);
@@ -35,5 +35,10 @@ public class TaskArrays {
     public void resultSum(){
         System.out.println("3.3. Вывести в консоль результат суммы первого и среднего элемента");
         System.out.println(arr[0]+arr[arr.length/2]);
+    }
+
+    public void run(){
+        changeElements();
+        resultSum();
     }
 }

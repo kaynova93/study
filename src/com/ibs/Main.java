@@ -5,20 +5,20 @@ import com.ibs.taskSix.TaskSix;
 public class Main {
     public static void main(String[] args) {
 //        //Задача 1
-//        System.out.println("Hello World!");
-//
+//        TaskOne one = new TaskOne();
+//        one.run();
+
 //        //Задача 3
-//        TaskArrays tdt = new TaskArrays();
-//        tdt.changeElements(0,4);
-//        tdt.resultSum();
+//        TaskThree three = new TaskThree();
+//        three.run();
 
 //        //Задача 4
-//        TaskFour o = new TaskFour();
-//        o.run();
+//        TaskFour four = new TaskFour();
+//        four.run();
 
 //        //Задача 5
-//        TaskFive sum = new TaskFive();
-//        sum.run();
+//        TaskFive five = new TaskFive();
+//        five.run();
 
 //        //задача 6
 //        TaskSix.run();
