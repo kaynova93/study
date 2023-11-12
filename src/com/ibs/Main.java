@@ -1,5 +1,7 @@
 package com.ibs;
 
+import com.ibs.taskSix.TaskSix;
+
 public class Main {
     public static void main(String[] args) {
 //        //Задача 1
@@ -11,15 +13,15 @@ public class Main {
 //        tdt.resultSum();
 
 //        //Задача 4
-//        TaskFourOperators o = new TaskFourOperators();
-//        o.average();
+//        TaskFour o = new TaskFour();
+//        o.run();
 
 //        //Задача 5
-//        TaskFiveCalc sum = new TaskFiveCalc();
-//        sum.calc();
+//        TaskFive sum = new TaskFive();
+//        sum.run();
 
 //        //задача 6
-//        Converter.converterNumb();
+//        TaskSix.run();
 
 //        //Задача 7
 //        TaskSeven seven = new TaskSeven();
@@ -40,6 +42,7 @@ public class Main {
 //        //Задача 11
 //        TaskEleven eleven =new TaskEleven();
 //        eleven.run();
+
 //        //Задача 12
 //        TaskTwelve twelve = new TaskTwelve();
 //        twelve.run("I like Java!!!");

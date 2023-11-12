@@ -10,7 +10,6 @@ public class Weight {
 
     /**
      * перевод килограммы в граммы
-     *
      * @param kg - кол-во кг
      * @return - граммы
      */
@@ -20,7 +19,6 @@ public class Weight {
 
     /**
      * Перевод граммы в килограммы
-     *
      * @param gr - кол-во грамм
      * @return - килограммы
      */
@@ -30,7 +28,6 @@ public class Weight {
 
     /**
      * Перевод килограммы в фунты
-     *
      * @param kg - кол-во кг
      * @return фунты
      */
@@ -40,7 +37,6 @@ public class Weight {
 
     /**
      * Перевод фунты в кг
-     *
      * @param pounds - кол-во фунтов
      * @return - кг
      */
@@ -50,7 +46,6 @@ public class Weight {
 
     /**
      * Перевод кг в караты
-     *
      * @param kg - кол-во кг
      * @return караты
      */
@@ -60,7 +55,6 @@ public class Weight {
 
     /**
      * Перевод караты в КГ
-     *
      * @param carat - кол-во караты
      * @return - КГ
      */
@@ -70,7 +64,6 @@ public class Weight {
 
     /**
      * Перевод гр в футы
-     *
      * @param gr - кол-во ГР
      * @return - футы
      */
@@ -80,7 +73,6 @@ public class Weight {
 
     /**
      * Перевод футы в ГР
-     *
      * @param pounds- кол-во футов
      * @return - ГР
      */
@@ -90,7 +82,6 @@ public class Weight {
 
     /**
      * Перевод ГР в Караты
-     *
      * @param gr - кол-во ГР
      * @return - караты
      */
@@ -100,7 +91,6 @@ public class Weight {
 
     /**
      * Перевод караты в ГР
-     *
      * @param carat - кол-во карат
      * @return - ГР
      */
@@ -110,7 +100,6 @@ public class Weight {
 
     /**
      * Перевод фунты в караты
-     *
      * @param pounds - колво фунтов
      * @return - караты
      */
@@ -120,7 +109,6 @@ public class Weight {
 
     /**
      * Перевод караты в фунты
-     *
      * @param carat - кол-во карат
      * @return - фунты
      */

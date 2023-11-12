@@ -11,7 +11,6 @@ public class Distance {
 
     /**
      * Перевод футы в ярды
-     *
      * @param feet - кол-во футов
      * @return - ярды
      */
@@ -21,7 +20,6 @@ public class Distance {
 
     /**
      * Перевод ярды в футы
-     *
      * @param yards - кол-во ярдов
      * @return - футы
      */
@@ -31,7 +29,6 @@ public class Distance {
 
     /**
      * Переводим футы в мили
-     *
      * @param feet - кол-во фут
      * @return - мили
      */
@@ -41,7 +38,6 @@ public class Distance {
 
     /**
      * Переводим мили в футы
-     *
      * @param miles - кол-во миль
      * @return - футы
      */
@@ -51,7 +47,6 @@ public class Distance {
 
     /**
      * переводим ярды в мили
-     *
      * @param yards- кол-во ярд
      * @return - мили
      */
@@ -61,7 +56,6 @@ public class Distance {
 
     /**
      * переводим мили в ярды
-     *
      * @param miles - кол-во миль
      * @return - ярды
      */
@@ -71,7 +65,6 @@ public class Distance {
 
     /**
      * Переводим метры в футы
-     *
      * @param meters -кол-во метров
      * @return- футы
      */
@@ -81,7 +74,6 @@ public class Distance {
 
     /**
      * Переводим футы в метры
-     *
      * @param feet - кол-во футов
      * @return- метры
      */
@@ -91,7 +83,6 @@ public class Distance {
 
     /**
      * Переводим метры в ярды
-     *
      * @param meters - кол-во метров
      * @return - ярды
      */
@@ -101,7 +92,6 @@ public class Distance {
 
     /**
      * Переводим ярды в мили
-     *
      * @param yards - кол-во ярдов
      * @return- мили
      */
@@ -111,7 +101,6 @@ public class Distance {
 
     /**
      * Переводим метры в мили
-     *
      * @param meters - кол-во метров
      * @return - мили
      */
@@ -121,7 +110,6 @@ public class Distance {
 
     /**
      * Переводим мили в метры
-     *
      * @param miles -кол-во миль
      * @return - ярды
      */
@@ -131,7 +119,6 @@ public class Distance {
 
     /**
      * Вывод результата перевода метры
-     *
      * @param meters -кол-во метров
      */
     public static void convertMeters(double meters) {
@@ -143,7 +130,6 @@ public class Distance {
 
     /**
      * Вывод результата перевода мили
-     *
      * @param miles - кол-во миль
      */
     public static void convertMiles(double miles) {
@@ -155,7 +141,6 @@ public class Distance {
 
     /**
      * Вывод результата перевода ярды
-     *
      * @param yards - кол-во ярд
      */
     public static void convertYards(double yards) {
@@ -167,7 +152,6 @@ public class Distance {
 
     /**
      * Вывод результата перевода футы
-     *
      * @param feet - кол-во футов
      */
     public static void convertFeet(double feet) {

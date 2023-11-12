@@ -1,15 +1,14 @@
 package com.ibs;
 
 import java.util.Scanner;
-public class TaskFiveCalc {
+public class TaskFive {
     /**
      * Напишите простой калькулятор:
-     *
      * 1. Ввести 2 числа с клавиатуры, затем один из символов ‘+’, ‘-’, ‘*’ или ‘/’
-     *
-     * 2. В зависимости от символа вывести в консоль результат выполнения соответствующей арифметической операции.
+     * 2. В зависимости от символа вывести в консоль результат выполнения соответствующей
+     * арифметической операции.
      */
-    public void calc(){
+    public void run(){
         int a= new Scanner(System.in).nextInt();
         int b= new Scanner(System.in).nextInt();
         String operator=new Scanner(System.in).nextLine();

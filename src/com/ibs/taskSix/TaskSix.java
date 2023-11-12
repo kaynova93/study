@@ -2,10 +2,10 @@ package com.ibs.taskSix;
 
 import java.util.Scanner;
 
-public class Converter {
+public class TaskSix {
     static String[][] measurement = {{"масса","расстояние"},{"килограмм","грамм","фунт","карат"},{"метр","миля","ярд","фут"}};
 
-    public static void converterNumb(){
+    public static void run(){
         System.out.println("Выберите что переводить: 1 - "+ measurement[0][0]+", 2 - "+ measurement[0][1]);
         int x = new Scanner(System.in).nextInt();
         System.out.println("Выберите единицу измерения: 1 - "+measurement[x][0]+", 2 - "+measurement[x][1]+", 3 - "+measurement[x][2]+", 4 - "+measurement[x][3]);

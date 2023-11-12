@@ -2,16 +2,12 @@ package com.ibs;
 
 import java.util.Scanner;
 
-public class TaskFourOperators {
+public class TaskFour {
     /**
      * Написать программу, которая будет выполнять следующие действия:
-     *
      * 1. Ввести три числа с клавиатуры x, y, z
-     *
      * 2. Найти и вывести в консоль среднее арифметическое этих чисел
-     *
      * 3. Разделить среднее арифметическое на 2 и округлить в меньшую сторону
-     *
      * 4. Если полученное число больше 3, то вывести на экран сообщение "Программа выполнена корректно"
      */
 
@@ -19,7 +15,7 @@ public class TaskFourOperators {
 
     double x, y, z;
 
-    public void average(){
+    public void run(){
         x= scan.nextDouble();
         y= scan.nextDouble();;
         z= scan.nextDouble();;
