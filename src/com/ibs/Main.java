@@ -1,6 +1,8 @@
 package com.ibs;
 
-import com.ibs.taskSix.TaskSix;
+import com.ibs.finalTasks.FinalTaskFour;
+import com.ibs.finalTasks.FinalTaskThree;
+import com.ibs.finalTasks.FinalTaskTwo;
 
 public class Main {
     public static void main(String[] args) {
@@ -50,5 +52,26 @@ public class Main {
 //        //Задача 13
 //        TaskThirteen thirteen = new TaskThirteen();
 //        thirteen.run();
+
+//        //Задача 14
+//        TaskFourteen fourteen = new TaskFourteen();
+//        fourteen.run();
+
+//        //Итоговая задача 1
+//        FinalTaskOne finalOne = new FinalTaskOne();
+//        finalOne.run();
+
+//        //Итоговая задача 2
+//        FinalTaskTwo finalTwo = new FinalTaskTwo();
+//        finalTwo.run();
+
+//        //Итоговая задача 3
+//        FinalTaskThree finalThree = new FinalTaskThree();
+//        finalThree.run();
+
+//        //Итоговая задача 4
+//        FinalTaskFour finalFour = new FinalTaskFour();
+//        finalFour.run();
     }
 }
+
